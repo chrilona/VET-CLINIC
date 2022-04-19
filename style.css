@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Open+Sans:wght@500&family=Pacifico&family=Poppins:wght@200;500&display=swap');
+ 
+ *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+}
+#one{
+    background-color: #E9FAFC;
+}
+#two{
+    background-color: #F8FEFF;
+}
+#three{
+    background-color: #E9FAFC;
+}
+#four{
+    background-color: #F8FEFF;
+}
+#five{
+    background-color: #F8FEFF;
+}
+
+nav  a {
+    text-decoration: none;
+    color: #575860;
+    display:inline-flex;
+    justify-content: space-between;
+    font-size: smaller;
+    padding: 10px;
+    }
+nav{
+    margin-left: 450px;
+}    
+.logo{
+color: #404040;
+font-weight: bolder;
+padding: 40px;
+margin-top: 40px;
+
+}
+.introduction{
+color: #FFA500;
+font-weight: bolder;
+font-size: large;
+margin-left: 20px;
+
+}
+.one{
+    display: flex;
+}
+.button{
+    display: flex;
+}
+.start{
+ color: #FFFFFF;
+ font-size: small;
+ background-color: #44A7C4;
+ border-radius: 9px;
+ border: #44A7C4;
+ width: 200px;
+ height: 40px;
+ margin-left: 5px;
+
+}
+.getstarted{
+
+    margin-top: 40px;
+}
+.content{
+    margin: 40px;
+}
+
+
+.image1{
+
+    margin: 0 0 0 -38%;
+    height: 350px;
+   }
+
+.image{ 
+    border-radius: 50%;
+    border: 40px solid #DCDCDC;
+    width: 300px;
+   margin: 0 0 0 15%;
+    
+    border-width: 50px;
+    height: 350px;
+} 
+.say{
+    display: flex;
+}
+.patients{
+    margin-top: 8%;
+}
+.scores{
+    color: #707070;
+    margin-left: 25%;
+    margin-top: 8%;
+}
+.work{
+    display: flex;
+}
+.work1{
+    margin-top: 8%;
+}
+.do{
+    margin-top: 8%;
+}
+.work2{
+    color: #707070;
+    margin-left: 25%;
+    margin-top: 8%;
+}
+
+
+.vet{
+display: flex;
+margin: 20px,30px,6px,0;
+
+}
+.best{
+
+
+    border-radius: 7px;
+    background-color: aqua;
+}
+.aboutvets{
+    
+    margin:80px 60px 30px -80px; 
+    
+ 
+}
+.service{ 
+  
+  background-color: #FFFFFF;
+  width: 35%;
+  height: 20%;
+  margin: 10px;
+
+  }
+
+.services {
+    display: flex;
+    margin-left: 20px;
+    padding: 80px;
+    
+}
+  
+.services1{
+      display: flex;
+      margin-left: 10px;
+      padding-left: 80px;
+    }
+    .fa-solid.fa-star{
+     color: #FFD700;
+     background-color:#FFFFFF;
+    }
+
+  h2{
+color: #494848;
+font-weight: bold;
+   }
+  h4{
+    color: #707070;
+     }
+  h5{
+      color: #707070;
+      font-weight: bold;
+  }
+ 
+  .fa-solid{
+      color:#7AD7F0 ;
+      background-color: #CAF5FF;
+      border-radius: 2cm;
+      padding: 10px;
+  }
+  .lower{
+      display: flex;
+      padding:50px ;
+  }
+  .staff{
+      background-color:#FFFFFF ;
+      padding: 10px;
+      margin: 20px;
+  }
+  .qualifiedvets{
+      display: flex;
+      margin-left: 100px;
+    }
+    .vets{
+     
+     height :90px;
+     margin: 20px;
+     border-radius: 9px;
+
+    }
+    .subscribe{
+         width: 80%;
+         height: 150px;
+         margin-left: 10%;
+         border-radius: 10px;
+         align-content: center;
+         background-color:#E9FAFC;
+         
+
+    }
+    .star{
+
+        padding: 10px;
+        
+        margin:25px 70px 0px 0px;
+        border-radius: 6px;
+        background-color: #89CFF0;
+        border-color: #89CFF0;
+        color: #FFFFFF;
+        font-size: small;
+        
+        
+    }
+
+.placeholder{
+
+    color: #707070;
+    border: #FFFFFF;
+    height: 50px;
+    border-radius:6px ;
+    margin: 20px 0 0 180px ;
+    font-size: small;
+    text-align: center;
+    
+ 
+}
+.blog{
+    display: flex;
+
+}
+  .footer{
+      display: inline-flex;
+      list-style: none;
+      margin-right: 50px;
+      color: #707070;
+  }
+  
+
+  .foot{
+      list-style: none;
+      font-size: small;
+      
+    
+  }
+   .fa-facebook-f{
+      border-radius: 8cm;
+      background-color: blue;
+      color: #FFFFFF;
+      padding: 10px;
+      margin: 2px,2px,2px,2px;
+    
+
+  }
+ .fa-twitter{
+border-radius: 5cm;
+background-color: #44A7C4;
+color: #FFFFFF;
+padding: 10px;
+margin: 3px,3px,2px,3px;
+  }
+  .fa-google-plus-g{
+   border-radius: 5cm;
+   background-color: #FF160C;
+   color: #FFFFFF;
+   padding:10px;
+
+  }
+  .fa-linkedin-in{
+  border-radius: 6cm;
+  background-color: rgb(6, 6, 99);
+  color: #FFFFFF;
+  padding: 10px;
+  margin: 3px,3px,2px,3px;
+  }
+  .title{
+      color: #404040;
+      font-weight: bold;
+  }
+  .end{
+      margin-left: 40px;
+  }
+  .down{
+      display: flex;
+  }
+  
