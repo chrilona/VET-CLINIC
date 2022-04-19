@@ -188,15 +188,25 @@ font-weight: bold;
   }
   .qualifiedvets{
       display: flex;
-      margin-left: 100px;
+      margin:0 30px 0 10px;
     }
     .vets{
      
-     height :90px;
-     margin: 20px;
+     height :150px;
+     margin: 0 10px 0 20px;
      border-radius: 9px;
+     padding: 10px;
 
     }
+    .bestvet{
+     border-radius: 9px;
+     background-color: #D3d3d3;
+     width: 350px;
+     margin: 30px 0 0 30px;
+     }
+     .aboutvets{
+         margin-left: 150px;
+     }
     .subscribe{
          width: 80%;
          height: 150px;
@@ -240,8 +250,9 @@ font-weight: bold;
   .footer{
       display: inline-flex;
       list-style: none;
-      margin-right: 50px;
+      margin:0 10px 0 40px;
       color: #707070;
+
   }
   
 
@@ -284,6 +295,7 @@ margin: 3px,3px,2px,3px;
   .title{
       color: #404040;
       font-weight: bold;
+      margin: 20px;
   }
   .end{
       margin-left: 40px;
